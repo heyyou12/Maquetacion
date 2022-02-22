@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: slategrey;
+}
+body{
+    width: 46.875rem;
+    height: 46.875rem;
+    background-color: snow;
+margin: auto;
+}
+header{
+    width: 46.875rem;
+    height: 15.625rem;
+    background-color:blue;
+    
+}
+.banner{
+    width: 31.25rem;
+    height: 15.625rem;
+    background-color: black;
+    float: right;
+}
+.logo{
+    width: 15.625rem;
+    height: 7.8125rem;
+    background-color: brown;
+}
+.buscador{
+    width: 15.625rem;
+    height: 7.8125rem;
+    background-color:cadetblue;
+}
+nav{
+    width: 46.875rem;
+    height: 3.125rem;
+    background-color: darkgreen;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 2.5rem;
+}
+nav ul li{
+    float: left;
+}
+main{
+    width: 46.875rem;
+    height: 25rem;
+    background-color: yellow;
+}
+.ladoIzquierdo{
+    width: 150px;
+    height: 25rem;
+    background-color: turquoise;
+    float: left;
+}
+article{
+    width: 31.25rem;
+    height: 25rem;
+    background-color: blue;
+    float: left;
+}
+.ladoDerecho{
+    width: 6.25rem;
+    height: 25rem;
+    background-color: turquoise;    
+}
+footer{
+    width: 46.875rem;
+    height: 3.125rem;
+    background-color: tomato;
+    
+}
