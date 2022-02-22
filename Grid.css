@@ -6,13 +6,29 @@
     grid-template-rows: auto auto auto;
     /*justify-content:space-evenly;
     align-content: center;*/
+    grid-template-areas: 'header header header'
+    'menu main main'
+    'footer footer footer';
 
 }
 .container div{
     background-color: darkblue;
     color: yellow;
     border: 1px solid white;
+    
+}
+.caja1{
+    grid-area: header;
+    justify-items: center;
+    text-align: center;
 }
 .caja2{
-    
+    /*grid-area: 3 / 3 / 4 / 4;*/
+    grid-area: menu;
+}
+.caja3{
+    grid-area: main;
+}
+.caja4{
+    grid-area: footer;
 }
